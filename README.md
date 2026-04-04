@@ -1,3 +1,5 @@
+<img src="docs/urv.jpg" width="400">
+
 # Lab 1.1 – Introducció a PHP (Apache + XAMPP)
 
 Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle podré tenir-ho en compte a l'hora d'arrodonir.

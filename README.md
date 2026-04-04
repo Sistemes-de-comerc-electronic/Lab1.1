@@ -38,18 +38,18 @@ https://www.apachefriends.org/es/index.html
 
 Descarregueu i instal·leu el XAMPP. Un cop hagi acabat veureu que a `C:/` teniu una carpeta `XAMPP`:
 
-<!-- TODO: imatge carpeta XAMPP a C:/ -->
+![Carpeta XAMPP a C:/](docs/xampp-carpeta-c.png)
 
 Busqueu la carpeta `htdocs` dins de XAMPP:
 
-<!-- TODO: imatge carpeta htdocs -->
+![Carpeta htdocs](docs/xampp-htdocs.png)
 
 #### Al PHPStorm:
 
 - Obriu la carpeta `C:\xampp\htdocs`
 - Veureu que us surten tots els fitxers
 
-<!-- TODO: imatge PHPStorm amb htdocs obert -->
+![PHPStorm amb htdocs obert](docs/phpstorm-htdocs.png)
 
 Si feu click al fitxer `index.php` podeu esborrar el seu contingut i deixar-hi una prova:
 
@@ -59,13 +59,13 @@ echo "Hola!";
 ?>
 ```
 
-<!-- TODO: imatge index.php amb contingut de prova -->
+![index.php amb contingut de prova](docs/phpstorm-index-php.png)
 
 #### Aixecar el servidor:
 
 Per aixecar el servidor web obriu el XAMPP i enceneu l'**Apache** i el **MySQL** (feu click al botó "Start"):
 
-<!-- TODO: imatge XAMPP amb Apache i MySQL encesos -->
+![XAMPP amb Apache i MySQL encesos](docs/xampp-running.png)
 
 Si entreu a la url us hauria de carregar el contingut que teniu al fitxer `index.php`:
 
@@ -81,7 +81,7 @@ https://getcomposer.org/download/
 
 Poseu la ruta per defecte i feu "Next" a tots els passos.
 
-<!-- TODO: imatge instal·lador Composer -->
+![Instal·lador Composer](docs/composer-installer.png)
 
 > **Error de certificat?** Si us surt un error dient que el certificat no és vàlid, proveu a desactivar l'antivirus. Si no us funciona, contacteu amb el professorat.
 
@@ -101,7 +101,7 @@ Dieu que sí a tots els valors per defecte. Si us demana un autor poseu el vostr
 
 Un cop ha acabat veureu que us ha quedat un fitxer `composer.json` i una carpeta `src/`:
 
-<!-- TODO: imatge estructura de fitxers amb composer.json i src/ -->
+![Estructura de fitxers amb composer.json i src/](docs/composer-init-result.png)
 
 ---
 
@@ -184,17 +184,17 @@ class Car
 
 > El PHPStorm posa una "C" a la icona del fitxer per indicar que és una classe.
 
-<!-- TODO: imatge icona fitxer classe al PHPStorm -->
+![Icona fitxer classe al PHPStorm](docs/phpstorm-class-icon.png)
 
 Per poder accedir als valors és obligatori declarar els **getters i setters** (igual que en Java).
 
 > El IDE ho fa sol: botó dret → *Generate getters and setters*.
 
-<!-- TODO: imatge Generate getters and setters al PHPStorm -->
+![Generate getters and setters al PHPStorm](docs/phpstorm-generate-getters.png)
 
 Us haurà quedat una classe així:
 
-<!-- TODO: imatge classe Car amb getters/setters generats -->
+![Classe Car amb getters i setters generats](docs/phpstorm-car-class.png)
 
 Com podem fer servir la classe que hem creat? Des de `index.php`:
 

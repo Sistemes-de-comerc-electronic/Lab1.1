@@ -1,23 +1,37 @@
 # Activitat guiada amb IA - Lab 1.1
 
-Aquest repositori és el punt de partida per practicar PHP bàsic amb Apache/XAMPP. L'objectiu de l'activitat no és entregar molt codi, sinó demostrar que sabeu formular bons prompts i revisar les respostes de la IA.
+Aquest laboratori introdueix el nou funcionament de la pràctica: treball per tasques, cada tasca amb PR i evidència a Moodle.
 
-## Què heu de fer
+## Flux obligatori per cada tasca
 
-1. Demaneu a la IA un mapa de treball per entendre com s'executa PHP des de `htdocs`.
-2. Feu un prompt per practicar variables, funcions i fitxers inclosos.
-3. Feu un prompt per dissenyar dues classes simples, per exemple `Car` i `Brand`.
-4. Demaneu ajuda per mostrar una sortida HTML a partir d'objectes PHP.
-5. Si apareix un error, feu un prompt de depuració amb el missatge exacte i el context.
+1. Creeu o escolliu una targeta al Jira, Trello o GitHub Projects.
+2. Escriviu la descripció funcional: què s'ha de fer i per què aporta valor.
+3. Demaneu a la IA un pla de treball amb un prompt que inclogui context, objectiu, restriccions i criteris de prova.
+4. Creeu una branca per a la tasca.
+5. Feu el canvi i obriu un Pull Request.
+6. Proveu el canvi i documenteu el joc de proves.
+7. Feu revisió crítica: què ha fet bé la IA, què heu corregit i quines decisions són vostres.
 
-## INPUTS per Moodle
+## Entrega per cada tasca
 
-- Prompt inicial amb context: sistema operatiu, XAMPP, carpeta oberta i nivell de coneixement.
-- Prompt millorat després d'una primera resposta massa genèrica.
-- Prompt de depuració amb un error real o provocat.
-- Explicació breu de com heu verificat el resultat al navegador.
-- Reflexió final: què ha fet que el vostre últim prompt sigui millor que el primer.
+- **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
+- **Prompt utilitzat:** prompt inicial i prompts de refinament, si n'hi ha.
+- **Pla generat per la IA:** pla complet o resum si l'eina no el guarda.
+- **Link al PR:** URL del PR amb els commits associats. Pot estar obert o merged.
+- **Joc de proves:** casos correctes, errors esperats, codis HTTP si n'hi ha, captures, comandes, curl/Postman o comprovació visual.
+- **Revisió crítica:** què ha fet bé la IA, què heu hagut de corregir i quines decisions són vostres.
+
+## Tasca recomanada per començar
+
+Tasca: crear una primera targeta de projecte i obrir un PR petit de prova.
+
+Exemple d'entrega:
+
+- Prompt: "Ajuda'm a planificar una tasca petita per practicar el flux GitHub Projects -> branca -> PR -> proves. No generis una solució completa; primer dona'm el pla i els criteris de prova."
+- PR: link al PR.
+- Proves: README renderitza correctament, el PR apunta a la tasca, els commits són visibles.
+- Revisió: "La IA proposava començar pel codi. Hem decidit començar pel flux de treball perquè és el que necessitarem a tota la pràctica."
 
 ## Recordatori
 
-La IA pot proposar codi, però vosaltres heu de comprovar-lo, adaptar-lo i explicar per què l'accepteu.
+XAMPP és només informació extra. El camí principal és treballar dins del repositori i deixar traça de tasca, prompt, PR, proves i revisió.

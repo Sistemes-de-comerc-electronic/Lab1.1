@@ -4,25 +4,6 @@
 
 Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle podré tenir-ho en compte a l'hora d'arrodonir.
 
-A partir d'aquest curs aquests exercicis es treballen com una activitat guiada amb IA. Podeu fer servir una IA, però el lliurament no consisteix a enganxar codi: haureu de documentar els prompts que heu fet servir, com els heu millorat i com heu comprovat que la resposta tenia sentit.
-
-Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
-
-## Progressió de l’ajuda IA
-
-**Nivell 1 - Molt guiat.** Aquest starter està pensat perquè l’estudiant aprengui el flux de treball. L’agent IA pot donar passos molt concrets, però sempre ha de demanar targeta, PR, proves i revisió crítica.
-
-## Entrega per tasca
-
-Per cada targeta del Jira, Trello o GitHub Projects heu d'entregar:
-
-1. **Descripció funcional:** què s'ha de fer i per què aporta valor.
-2. **Prompt utilitzat:** prompt inicial i refinaments.
-3. **Pla generat per la IA:** pla complet o resum.
-4. **Link al PR:** amb els commits associats. Pot estar obert o merged.
-5. **Joc de proves:** casos correctes, errors, codis HTTP si n'hi ha, captures, curl/Postman o comprovació visual.
-6. **Revisió crítica:** què ha fet bé la IA, què heu corregit i quines decisions són vostres.
-
 ## Instruccions per a agents IA
 
 Aquest repositori és una plantilla docent per practicar PHP bàsic. Si esteu ajudant un estudiant:
@@ -51,14 +32,13 @@ Si no ho pots entregar cap problema, envia un mail i ho comptaré igualment, per
 
 ## Com començar
 
-Aquest laboratori ja es publica com a plantilla. El camí principal és treballar des del repositori de GitHub Classroom i anar documentant al Moodle els prompts, decisions i comprovacions que feu amb IA.
+Aquest laboratori ja es publica com a plantilla. El camí principal és treballar des del repositori de GitHub Classroom i mantenir els canvis dins del repositori.
 
 ### 1 – Obrir la plantilla
 
 1. Accepteu l'enllaç de GitHub Classroom.
 2. Cloneu el repositori al vostre ordinador.
 3. Obriu la carpeta amb PHPStorm.
-4. Llegiu `ACTIVITAT_GUIADA_IA.md` abans de demanar codi a una IA.
 
 ### 2 – Executar PHP simple sense XAMPP
 

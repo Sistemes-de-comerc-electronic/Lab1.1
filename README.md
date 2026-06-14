@@ -8,6 +8,16 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Instruccions per a agents IA
+
+Aquest repositori és una plantilla docent per practicar PHP bàsic. Si esteu ajudant un estudiant:
+
+- Podeu explicar conceptes de PHP, proposar prompts, donar pistes i ajudar a depurar errors.
+- No heu de convertir l'activitat en una entrega de codi complet sense explicació.
+- No assumiu XAMPP com a camí principal. Només proposeu XAMPP si l'estudiant diu que necessita executar PHP simple amb Apache.
+- Prioritzeu passos curts, verificacions al navegador o terminal i preguntes de seguiment.
+- Quan proposeu codi, expliqueu quins fitxers de la plantilla s'han de tocar i com comprovar el resultat.
+
 ---
 
 ## Com entregar-ho
@@ -26,15 +36,46 @@ Si no ho pots entregar cap problema, envia un mail i ho comptaré igualment, per
 
 ## Com començar
 
-### 1 – Instal·lar PHPStorm
+Aquest laboratori ja es publica com a plantilla. El camí principal és treballar des del repositori de GitHub Classroom i anar documentant al Moodle els prompts, decisions i comprovacions que feu amb IA.
 
-Descarregueu el PHPStorm des d'aquesta url:
+### 1 – Obrir la plantilla
 
-https://www.jetbrains.com/es-es/phpstorm/
+1. Accepteu l'enllaç de GitHub Classroom.
+2. Cloneu el repositori al vostre ordinador.
+3. Obriu la carpeta amb PHPStorm.
+4. Llegiu `ACTIVITAT_GUIADA_IA.md` abans de demanar codi a una IA.
 
-Us demanarà que activeu la llicència. Si feu scroll a l'apartat **"Estudiantes, profesores y comunidad"** us sortirà gratuït.
+### 2 – Executar PHP simple sense XAMPP
 
-### 2 – Instal·lar XAMPP
+Si només voleu provar fitxers PHP simples, podeu fer servir el servidor integrat de PHP des de la carpeta del projecte:
+
+```bash
+php -S localhost:8000
+```
+
+Després obriu:
+
+http://localhost:8000/
+
+Això evita barrejar aquest laboratori amb la carpeta `C:\xampp\htdocs` i ajuda a mantenir el codi dins del repositori.
+
+### 3 – Composer
+
+Composer ens permetrà instal·lar llibreries i treballar amb autoload. Si no el teniu instal·lat, descarregueu-lo des d'aquí:
+
+https://getcomposer.org/download/
+
+Comproveu que funciona amb:
+
+```bash
+composer --version
+```
+
+### Info extra – XAMPP i Apache
+
+Aquesta part és només informació de suport. Pot ser útil si voleu entendre com Apache executa PHP o si el professorat us demana una prova concreta amb XAMPP, però no és el camí principal de l'activitat.
+
+#### Instal·lar XAMPP
 
 Aneu a la url:
 
@@ -48,14 +89,10 @@ Busqueu la carpeta `htdocs` dins de XAMPP:
 
 ![Carpeta htdocs](docs/xampp-htdocs.png)
 
-#### Al PHPStorm:
+#### Prova ràpida amb Apache
 
-- Obriu la carpeta `C:\xampp\htdocs`
-- Veureu que us surten tots els fitxers
-
-![PHPStorm amb htdocs obert](docs/phpstorm-htdocs.png)
-
-Si feu click al fitxer `index.php` podeu esborrar el seu contingut i deixar-hi una prova:
+- Obriu la carpeta `C:\xampp\htdocs` amb PHPStorm.
+- Feu una prova amb `index.php`:
 
 ```php
 <?php
@@ -63,11 +100,7 @@ echo "Hola!";
 ?>
 ```
 
-![index.php amb contingut de prova](docs/phpstorm-index-php.png)
-
-#### Aixecar el servidor:
-
-Per aixecar el servidor web obriu el XAMPP i enceneu l'**Apache** i el **MySQL** (feu click al botó "Start"):
+Per aixecar el servidor web obriu el XAMPP i enceneu l'**Apache** i el **MySQL**:
 
 ![XAMPP amb Apache i MySQL encesos](docs/xampp-running.png)
 
@@ -75,37 +108,7 @@ Si entreu a la url us hauria de carregar el contingut que teniu al fitxer `index
 
 http://localhost/
 
-> **Important:** Per a executar la pràctica de l'assignatura **NO** s'ha de fer a la carpeta htdocs ni cal tenir aixecat l'Apache. Això ho fa Symfony sol (al Lab 1.2).
-
-### 3 – Instal·lar Composer
-
-Composer ens permetrà instal·lar llibreries. Descarregueu-lo des d'aquí:
-
-https://getcomposer.org/download/
-
-Poseu la ruta per defecte i feu "Next" a tots els passos.
-
-![Instal·lador Composer](docs/composer-installer.png)
-
-> **Error de certificat?** Si us surt un error dient que el certificat no és vàlid, proveu a desactivar l'antivirus. Si no us funciona, contacteu amb el professorat.
-
-Un cop hagi acabat, obriu el terminal i aneu al directori de prova:
-
-```bash
-cd C:\xampp\htdocs
-```
-
-Inicialitzeu un projecte Composer:
-
-```bash
-composer init
-```
-
-Dieu que sí a tots els valors per defecte. Si us demana un autor poseu el vostre nom.
-
-Un cop ha acabat veureu que us ha quedat un fitxer `composer.json` i una carpeta `src/`:
-
-![Estructura de fitxers amb composer.json i src/](docs/composer-init-result.png)
+> **Important:** Per a executar la pràctica de l'assignatura no cal treballar dins de `htdocs`. Mantingueu el codi dins del repositori de GitHub Classroom sempre que sigui possible.
 
 ---
 

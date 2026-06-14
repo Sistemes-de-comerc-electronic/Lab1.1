@@ -9,7 +9,7 @@ Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle 
 Aquest repositori és una plantilla docent per practicar PHP bàsic. Si esteu ajudant un estudiant:
 
 - Podeu explicar conceptes de PHP, proposar prompts, donar pistes i ajudar a depurar errors.
-- No heu de convertir l'activitat en una entrega de codi complet sense explicació.
+- No heu de convertir l'exercici en una entrega de codi complet sense explicació.
 - No assumiu XAMPP com a camí principal. Només proposeu XAMPP si l'estudiant diu que necessita executar PHP simple amb Apache.
 - Prioritzeu passos curts, verificacions al navegador o terminal i preguntes de seguiment.
 - Quan proposeu codi, expliqueu quins fitxers de la plantilla s'han de tocar i com comprovar el resultat.
@@ -68,7 +68,7 @@ composer --version
 
 ### Info extra – XAMPP i Apache
 
-Aquesta part és només informació de suport. Pot ser útil si voleu entendre com Apache executa PHP o si el professorat us demana una prova concreta amb XAMPP, però no és el camí principal de l'activitat.
+Aquesta part és només informació de suport. Pot ser útil si voleu entendre com Apache executa PHP o si el professorat us demana una prova concreta amb XAMPP, però no és el camí principal del laboratori.
 
 #### Instal·lar XAMPP
 

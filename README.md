@@ -8,6 +8,10 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Progressió de l’ajuda IA
+
+**Nivell 1 - Molt guiat.** Aquest starter està pensat perquè l’estudiant aprengui el flux de treball. L’agent IA pot donar passos molt concrets, però sempre ha de demanar targeta, PR, proves i revisió crítica.
+
 ## Entrega per tasca
 
 Per cada targeta del Jira, Trello o GitHub Projects heu d'entregar:

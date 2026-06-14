@@ -2,6 +2,10 @@
 
 Aquest laboratori introdueix el nou funcionament de la pràctica: treball per tasques, cada tasca amb PR i evidència a Moodle.
 
+## Nivell de guia
+
+**Nivell 1 - Molt guiat.** Seguiu la plantilla gairebé pas a pas. El més important és aprendre el flux de targeta, prompt, pla, branca, PR, proves i revisió.
+
 ## Flux obligatori per cada tasca
 
 1. Creeu o escolliu una targeta al Jira, Trello o GitHub Projects.
